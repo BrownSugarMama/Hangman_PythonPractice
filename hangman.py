@@ -7,7 +7,7 @@ print(msg)
 import random 
 
     # Small sample list of words for the game: array
-words = ['general, assembly, developer, engineer, immersive, fifteen, washington, ']
+words = ['general, assembly, developer, engineer, immersive, fifteen, washington,']
 
 #lives remaining
 lives_left = ''
@@ -16,7 +16,7 @@ letters_guessed = ''
 
 def chooseWord () :
     letter = random.randint(0, len(words)-1)
-    return words(letter)
+    return words[letter]
 
-print(chooseWord())
+print(chooseWord()) # words printed into console
 
