@@ -52,6 +52,7 @@ _ r _ g r _ _
  -- Create a way to show to player guess
 
 ## RESOURCES
+-- Guide + Reference : https://gist.github.com/saltavenger/3939185
 -- Difference b/t Funtions + Methods" 
    https://teamtreehouse.com/community/difference-between-functions-and-methods-in-python
 -- TypeError: 'list' object is not callable in python
