@@ -48,7 +48,8 @@ _ r _ g r _ _
         Note the indentation you use is important
         => Source : Codecademy
     --  Used a WhileLoop, because guesses will need to keep happening until the lives left are reached or the word is guess. ForLoops have a limit. While loop will go until the condition is met. https://wiki.python.org/moin/WhileLoop
-    -- 
+ -- Create a way to get the Player guess
+ -- Create a way to show to player guess
 
 ## RESOURCES
 -- Difference b/t Funtions + Methods" 
@@ -66,6 +67,8 @@ _ r _ g r _ _
     'bb'
     > aList
     ['ccc', 'a', 'dddd']
-So with shuffle and pop you can get random choices, and each time you pop from the list, you get a different element.
+    So with shuffle and pop you can get random choices, and each time you pop from the list, you get a different element.
+-- Strings 
+   https://wiki.python.org/moin/MultiLineStringsInDocTest#Multi-Line_Strings_in_output
 -- 
 
