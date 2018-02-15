@@ -24,7 +24,15 @@
       https://www.youtube.com/watch?v=MO63L4s-20U
     - Shannon Turner, Hear Me Code -- Python For Beginners
 
-## HANGMAN GAME OUTLINE
+## HANGMAN GAME OVERVIEW + OUTLINE
+=> Code the classic hangman game, where the computer selects a word randomly from a list, and the player guesses letters, with a limit for the number of wrong letter guesses, displayed somehow.  Correct guesses need to be indicated positionally.  For instance for the secret word "program", if the player has correctly guessed nothing, display underscores for all 7 letters:
+_ _ _ _ _ _ _
+Later if the user has correctly selected r, you should display something like
+_ r _ _ r _ _
+and then if g is selected,
+_ r _ g r _ _
+.... This display is the trickiest part of a basic version.
+----------------------------------------------------------------
 -- Make an 'Array' of words to be chosen from
 -- Create a method for the letter the user choses to be returned
 -- Create a method for the users lives to countdown with each incorrect answer
