@@ -17,7 +17,7 @@ def choose_word () :
     letter = random.randint(0, len(words) - 2)
     return words[letter]
 
-print(choose_word()) # words printed into console
+print(choose_word()) # single random word printed into console
 
 # Getting the game to play (play function)
 
