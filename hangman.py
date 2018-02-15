@@ -14,9 +14,12 @@ lives_left = ''
 #letters guessed
 letters_guessed = ''
 
+#random.randint allows code to return integers -- https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.randint.html
 def chooseWord () :
     letter = random.randint(0, len(words)-1)
     return words[letter]
 
 print(chooseWord()) # words printed into console
+
+# Getting the game to play (play function)
 
