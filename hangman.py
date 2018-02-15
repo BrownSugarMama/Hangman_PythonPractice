@@ -27,9 +27,12 @@ def play():
     word = chooseWord()
     #if/else (conditional should work here, similar to simon game)
     guess = player_guess
-    if player_guess (guess, word):
+    if word_guess (guess, word):
         print ('You won the game! Great Job!')
-    else print ('Oh No! Hangman! Better luck next time')
+        break
+    else
+        != word_guess (gues, word): 
+        print ('Oh No! Hangman! Better luck next time')
         print ('Would you like ot play again? Y/N')
         
 
