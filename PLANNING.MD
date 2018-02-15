@@ -38,6 +38,15 @@ _ r _ g r _ _
 -- Create a method for the users lives to countdown with each incorrect answer
 -- Create a function for the words and letters to be called
 -- Create a 'Play Function'    
+    -- Here’s a hint, the IF statement is there to tell the user they have no lives left, you’ll need to use  you "lives"  variable and one of the following operators:
+        • == Equals
+        • != not equals
+        • > greater than
+        • < less than
+        • >= greater than or equal to
+        • <= less than or equal to
+        Note the indentation you use is important
+        => Source : Codecademy
 
 ## RESOURCES
 -- Difference b/t Funtions + Methods" 

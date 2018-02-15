@@ -10,9 +10,9 @@ import random
 words = ['general, assembly, developer, engineer, immersive, fifteen, washington,']
 
 #lives remaining
-livesLeft = ''
+lives_left = ''
 #letters guessed
-lettersGuessed = ''
+letters_guessed = ''
 
 #random.randint allows code to return integers -- https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.randint.html
 def chooseWord () :
@@ -25,8 +25,11 @@ print(chooseWord()) # words printed into console
 
 def play():
     word = chooseWord()
-    #if/else (conditional shoudl work here, similar to simon game)
-    if 
-    else
+    #if/else (conditional should work here, similar to simon game)
+    guess = player_guess
+    if player_guess (guess, word):
+        print ('You won the game! Great Job!')
+    else print ('Oh No! Hangman! Better luck next time')
+        print ('Would you like ot play again? Y/N')
         
 
