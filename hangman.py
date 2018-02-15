@@ -6,9 +6,11 @@ print(msg)
 
 import random 
 
-    # Small sample list of words for the game
+    # Small sample list of words for the game: array
 words = ['general, assembly, developer, engineer, immersive, fifteen, washington, ']
 
 #lives remaining
 #letters guessed
+
+print ()
 
