@@ -7,32 +7,31 @@ print(msg)
 import random 
 
     # Small sample list of words for the game: array
-words = ['general, assembly, developer, engineer, immersive, fifteen, washington,']
-
+words = ['general', 'assembly', 'developer', 'engineer', 'immersive', 'fifteen', 'washington',]
 #lives remaining
-lives_left = ''
+lives_left = 5
 #letters guessed
 letters_guessed = ''
 
-#random.randint allows code to return integers -- https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.randint.html
-def chooseWord () :
-    letter = random.randint(0, len(words)-1)
+def choose_word () :
+    letter = random.randint(0, len(words) - 2)
     return words[letter]
 
-print(chooseWord()) # words printed into console
+print(choose_word()) # words printed into console
 
 # Getting the game to play (play function)
 
 def play():
-    word = chooseWord()
+    word = choose_word()
+    print (word())
     #if/else (conditional should work here, similar to simon game)
-    guess = player_guess
-    if word_guess (guess, word):
-        print ('You won the game! Great Job!')
-        break
-    else
-        != word_guess (gues, word): 
-        print ('Oh No! Hangman! Better luck next time')
-        print ('Would you like ot play again? Y/N')
+    # guess = player_guess
+    # if word_guess (guess, word):
+    #     print ('You won the game! Great Job!')
+    #     break
+    # else
+    #     != word_guess (gues, word): 
+    #     print ('Oh No! Hangman! Better luck next time')
+    #     print ('Would you like ot play again? Y/N')
         
 
