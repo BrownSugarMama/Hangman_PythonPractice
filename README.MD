@@ -26,12 +26,14 @@ Learn a new language and also build something using what was learned in the new 
 ## Opinion of Python (after the build)
 
 ## Biggest Hurdles
+Honestly the biggest hurdle was enviornment setup. I got errors every step of the way. I kept spending so much time on installment errors that I switched to repl.it in order to get started on the project. Switching allowed me to jump into the code immediately. In teh future I think i will start my build with an online editing enviornment and then copy it to my local enviornment. 
 
-## What resources do I recommend for interested students
+## Resources Used (& Recommended)
+    - Django Girls Tuts: https://tutorial.djangogirls.org/en/python_introduction/
     - articles and forums most helpful
 
 ## Instructions
  - How to run the game
  - Can I deploy it on Heroku
- 
+
 
