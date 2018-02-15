@@ -3,7 +3,6 @@ print(msg)
 
     # Get a random word : List of words that will be picked for the player
 
-
 import random 
 
     # Small sample list of words for the game: array
@@ -14,7 +13,7 @@ lives_left = 5
 letters_guessed = ''
 
 def choose_word () :
-    letter_position = random.randint(0, len(words) - 2)
+    letter_position = random.randint(0, len(words) - 1)
     return words[letter_position]
 
 print(choose_word()) # single random word printed into console
@@ -30,7 +29,7 @@ def play():
         break
         if word_guess != (guess, word)    
         print ('Oh No! Hangman! Better luck next time')
-        print ('Would you like ot play again? Y/N')
+        print ('Would you like to play again? Y/N')
 
 # Player guess function, letter or word
 def player_guess(word):
