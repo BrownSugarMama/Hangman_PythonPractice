@@ -23,4 +23,9 @@
     - Integers, Strings, Lists, Variables, and Errors: 
       https://www.youtube.com/watch?v=MO63L4s-20U
     - Shannon Turner, Hear Me Code -- Python For Beginners
+
+## HANGMAN GAME OUTLINE
+-- Make an array of words to be chosen from
+-- Create a method for the letter the user choses to be returned
+-- Create a method for the users lives to countdown with each incorrect answer
       

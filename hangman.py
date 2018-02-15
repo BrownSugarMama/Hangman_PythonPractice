@@ -14,5 +14,9 @@ lives_left = ''
 #letters guessed
 letters_guessed = ''
 
-print ()
+def chooseWord () :
+    letter = random.randint(0, len(words)-1)
+    return words(letter)
+
+print(chooseWord())
 
