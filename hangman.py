@@ -10,7 +10,9 @@ import random
 words = ['general, assembly, developer, engineer, immersive, fifteen, washington, ']
 
 #lives remaining
+lives_left = ''
 #letters guessed
+letters_guessed = ''
 
 print ()
 
