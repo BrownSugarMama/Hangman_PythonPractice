@@ -32,6 +32,7 @@ Honestly the biggest hurdle was enviornment setup. I got errors every step of th
     - Django Girls Tuts: https://tutorial.djangogirls.org/en/python_introduction/
     - Python Extension for VS Code (helped a lot with syntax reminders + suggestions)
     - articles and forums most helpful
+    - Hear Me Code : https://github.com/hearmecode/slides
 
 ## Instructions
  - How to run the game
