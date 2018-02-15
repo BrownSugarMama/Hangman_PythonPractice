@@ -24,10 +24,10 @@ def play():
     while True:           
         guess = player_guess(word)
     # if/else (conditional should work here, similar to simon game)
-          if word_guess == (guess, word):
+    if word_guess == (guess, word):
         print ('You won the game! Great Job!')
         break
-        if word_guess != (guess, word)    
+    if word_guess != (guess, word)    
         print ('Oh No! Hangman! Better luck next time')
         print ('Would you like to play again? Y/N')
 
