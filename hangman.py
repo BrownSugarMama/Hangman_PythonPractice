@@ -23,15 +23,16 @@ print(choose_word()) # single random word printed into console
 
 def play():
     word = choose_word()
-    print (word())
-    #if/else (conditional should work here, similar to simon game)
-    # guess = player_guess
-    # if word_guess (guess, word):
-    #     print ('You won the game! Great Job!')
-    #     break
-    # else
-    #     != word_guess (gues, word): 
-    #     print ('Oh No! Hangman! Better luck next time')
-    #     print ('Would you like ot play again? Y/N')
+    while True:           
+        guess = player_guess (word)
+    # if/else (conditional should work here, similar to simon game)
+           n = raw_input("please enter 'hello':")
+            if  n.strip() == 'hello':
+        print ('You won the game! Great Job!')
+        break
+    else
+        != word_guess (guess, word): 
+        print ('Oh No! Hangman! Better luck next time')
+        print ('Would you like ot play again? Y/N')
         
 

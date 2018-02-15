@@ -47,6 +47,8 @@ _ r _ g r _ _
         • <= less than or equal to
         Note the indentation you use is important
         => Source : Codecademy
+    --  Used a WhileLoop, because guesses will need to keep happening until the lives left are reached or the word is guess. ForLoops have a limit. While loop will go until the condition is met. https://wiki.python.org/moin/WhileLoop
+    -- 
 
 ## RESOURCES
 -- Difference b/t Funtions + Methods" 
